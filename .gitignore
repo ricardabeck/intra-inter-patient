@@ -1,5 +1,16 @@
 # Data
 data/
+data_dp/
+diffpriv/dp_checkpoints/
+diffpriv/dp_checkpoints_dp/
+diffpriv/dp_checkpoints_DS/
+diffpriv/checkpoints-seq2seq/
+diffpriv/checkpoints-seq2seq_DS1DS2/
+diffpriv/checkpoints-seq2seq_o/
+diffpriv/checkpoints-seq2seq_DS1DS2_o/
+results/
+results_dp/
+results_attacks
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

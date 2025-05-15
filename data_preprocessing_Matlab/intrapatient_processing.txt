@@ -1,0 +1,955 @@
+Files are 
+  48x1 struct array with fields:
+
+    name
+    folder
+    date
+    bytes
+    isdir
+    datenum
+
+100m.mat
+ ----------------- Patient -----------------
+Count of annotations
+        2271
+
+N: 
+        2237
+
+S: 
+    33
+
+V: 
+     1
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        1869
+
+N: 
+        1858
+
+S: 
+     3
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     1
+
+ ----------------- Patient -----------------
+Count of annotations
+        2190
+
+N: 
+    99
+
+S: 
+     0
+
+V: 
+     4
+
+F: 
+     0
+
+Q: 
+        2083
+
+ ----------------- Patient -----------------
+Count of annotations
+        2089
+
+N: 
+        2081
+
+S: 
+     2
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2298
+
+N: 
+   163
+
+S: 
+     0
+
+V: 
+     2
+
+F: 
+     0
+
+Q: 
+        2058
+
+ ----------------- Patient -----------------
+Count of annotations
+        2669
+
+N: 
+        2515
+
+S: 
+     0
+
+V: 
+    41
+
+F: 
+     0
+
+Q: 
+     5
+
+ ----------------- Patient -----------------
+Count of annotations
+        2096
+
+N: 
+        1506
+
+S: 
+     0
+
+V: 
+   520
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2135
+
+N: 
+     0
+
+S: 
+     0
+
+V: 
+    59
+
+F: 
+     0
+
+Q: 
+        2075
+
+ ----------------- Patient -----------------
+Count of annotations
+        1815
+
+N: 
+        1735
+
+S: 
+     4
+
+V: 
+    17
+
+F: 
+     2
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2533
+
+N: 
+        2491
+
+S: 
+     0
+
+V: 
+    38
+
+F: 
+     2
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2131
+
+N: 
+        2122
+
+S: 
+     0
+
+V: 
+     1
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2546
+
+N: 
+        2535
+
+S: 
+     2
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        1794
+
+N: 
+        1788
+
+S: 
+     6
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        1888
+
+N: 
+        1819
+
+S: 
+    12
+
+V: 
+    43
+
+F: 
+     4
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        1956
+
+N: 
+        1950
+
+S: 
+     0
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2419
+
+N: 
+        2301
+
+S: 
+     1
+
+V: 
+   109
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        1537
+
+N: 
+        1533
+
+S: 
+     1
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2296
+
+N: 
+        2164
+
+S: 
+    95
+
+V: 
+    16
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2092
+
+N: 
+        1542
+
+S: 
+     0
+
+V: 
+   444
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        1870
+
+N: 
+        1858
+
+S: 
+     1
+
+V: 
+     1
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2477
+
+N: 
+        2475
+
+S: 
+     0
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        1516
+
+N: 
+        1513
+
+S: 
+     0
+
+V: 
+     3
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        1632
+
+N: 
+        1535
+
+S: 
+    31
+
+V: 
+    47
+
+F: 
+     5
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2784
+
+N: 
+        1740
+
+S: 
+    30
+
+V: 
+   826
+
+F: 
+     2
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2037
+
+N: 
+        1634
+
+S: 
+   128
+
+V: 
+   198
+
+F: 
+     2
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2144
+
+N: 
+        2060
+
+S: 
+    55
+
+V: 
+    19
+
+F: 
+     1
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        3061
+
+N: 
+        2510
+
+S: 
+     2
+
+V: 
+   441
+
+F: 
+     1
+
+Q: 
+     4
+
+ ----------------- Patient -----------------
+Count of annotations
+        2660
+
+N: 
+        2566
+
+S: 
+     3
+
+V: 
+    70
+
+F: 
+    11
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2372
+
+N: 
+        1538
+
+S: 
+   106
+
+V: 
+   210
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        3031
+
+N: 
+        1583
+
+S: 
+     2
+
+V: 
+   992
+
+F: 
+   372
+
+Q: 
+     2
+
+ ----------------- Patient -----------------
+Count of annotations
+        3042
+
+N: 
+        2617
+
+S: 
+   382
+
+V: 
+     1
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2676
+
+N: 
+        2419
+
+S: 
+    22
+
+V: 
+   194
+
+F: 
+    10
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2761
+
+N: 
+        2747
+
+S: 
+     0
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        3290
+
+N: 
+        2640
+
+S: 
+    28
+
+V: 
+   219
+
+F: 
+   362
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2294
+
+N: 
+        2001
+
+S: 
+     0
+
+V: 
+   256
+
+F: 
+     1
+
+Q: 
+     2
+
+ ----------------- Patient -----------------
+Count of annotations
+        3392
+
+N: 
+        3192
+
+S: 
+     3
+
+V: 
+   163
+
+F: 
+     1
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2278
+
+N: 
+   244
+
+S: 
+     0
+
+V: 
+   162
+
+F: 
+     0
+
+Q: 
+        1801
+
+ ----------------- Patient -----------------
+Count of annotations
+        2290
+
+N: 
+        2073
+
+S: 
+     7
+
+V: 
+    64
+
+F: 
+     1
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2064
+
+N: 
+        1951
+
+S: 
+    94
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2458
+
+N: 
+        2029
+
+S: 
+     0
+
+V: 
+   396
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2623
+
+N: 
+        2268
+
+S: 
+   209
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2639
+
+N: 
+        2044
+
+S: 
+    73
+
+V: 
+   472
+
+F: 
+    14
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2127
+
+N: 
+        1682
+
+S: 
+     3
+
+V: 
+   362
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2459
+
+N: 
+        2252
+
+S: 
+     0
+
+V: 
+     1
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2007
+
+N: 
+        1567
+
+S: 
+     1
+
+V: 
+     1
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        1814
+
+N: 
+   398
+
+S: 
+        1381
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        3149
+
+N: 
+        2229
+
+S: 
+     7
+
+V: 
+   830
+
+F: 
+    11
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+Count of annotations
+        2760
+
+N: 
+        2698
+
+S: 
+    50
+
+V: 
+     3
+
+F: 
+     0
+
+Q: 
+     0
+
+
+F_class =
+
+   802
+
+
+N_class =
+
+       90502
+
+
+Q_class =
+
+        8031
+
+
+S_class =
+
+        2777
+
+
+V_class =
+
+        7226
+
+
+ans =
+
+      109338
+
+Elapsed time is 25.295729 seconds.
+Successfully generated :)

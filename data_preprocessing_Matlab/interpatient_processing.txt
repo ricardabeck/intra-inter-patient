@@ -1,0 +1,1131 @@
+Files are 
+  48x1 struct array with fields:
+
+    name
+    folder
+    date
+    bytes
+    isdir
+    datenum
+
+100m.mat
+DS1 is processed now ...
+ ----------------- Patient -----------------
+   101
+
+Average HB
+  346.8517
+
+Count of annotations
+        1869
+
+N: 
+        1858
+
+S: 
+     3
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     1
+
+ ----------------- Patient -----------------
+   106
+
+Average HB
+  309.8189
+
+Count of annotations
+        2096
+
+N: 
+        1506
+
+S: 
+     0
+
+V: 
+   520
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   108
+
+Average HB
+  356.3596
+
+Count of annotations
+        1815
+
+N: 
+        1735
+
+S: 
+     4
+
+V: 
+    17
+
+F: 
+     2
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   109
+
+Average HB
+  256.4103
+
+Count of annotations
+        2533
+
+N: 
+        2491
+
+S: 
+     0
+
+V: 
+    38
+
+F: 
+     2
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   112
+
+Average HB
+  254.9020
+
+Count of annotations
+        2546
+
+N: 
+        2535
+
+S: 
+     2
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   114
+
+Average HB
+  343.9153
+
+Count of annotations
+        1888
+
+N: 
+        1819
+
+S: 
+    12
+
+V: 
+    43
+
+F: 
+     4
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   115
+
+Average HB
+  331.2946
+
+Count of annotations
+        1956
+
+N: 
+        1950
+
+S: 
+     0
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   116
+
+Average HB
+  268.4841
+
+Count of annotations
+        2419
+
+N: 
+        2301
+
+S: 
+     1
+
+V: 
+   109
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   118
+
+Average HB
+  282.4859
+
+Count of annotations
+        2296
+
+N: 
+        2164
+
+S: 
+    95
+
+V: 
+    16
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   119
+
+Average HB
+  310.4107
+
+Count of annotations
+        2092
+
+N: 
+        1542
+
+S: 
+     0
+
+V: 
+   444
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   122
+
+Average HB
+  262.2025
+
+Count of annotations
+        2477
+
+N: 
+        2475
+
+S: 
+     0
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   124
+
+Average HB
+  397.7968
+
+Count of annotations
+        1632
+
+N: 
+        1535
+
+S: 
+    31
+
+V: 
+    47
+
+F: 
+     5
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   201
+
+Average HB
+  318.7837
+
+Count of annotations
+        2037
+
+N: 
+        1634
+
+S: 
+   128
+
+V: 
+   198
+
+F: 
+     2
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   203
+
+Average HB
+  209.1377
+
+Count of annotations
+        3061
+
+N: 
+        2510
+
+S: 
+     2
+
+V: 
+   441
+
+F: 
+     1
+
+Q: 
+     4
+
+ ----------------- Patient -----------------
+   205
+
+Average HB
+  243.2635
+
+Count of annotations
+        2660
+
+N: 
+        2566
+
+S: 
+     3
+
+V: 
+    70
+
+F: 
+    11
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   207
+
+Average HB
+  272.5367
+
+Count of annotations
+        2372
+
+N: 
+        1538
+
+S: 
+   106
+
+V: 
+   210
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   208
+
+Average HB
+  213.8158
+
+Count of annotations
+        3031
+
+N: 
+        1583
+
+S: 
+     2
+
+V: 
+   992
+
+F: 
+   372
+
+Q: 
+     2
+
+ ----------------- Patient -----------------
+   209
+
+Average HB
+  212.9751
+
+Count of annotations
+        3042
+
+N: 
+        2617
+
+S: 
+   382
+
+V: 
+     1
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   215
+
+Average HB
+  191.1765
+
+Count of annotations
+        3392
+
+N: 
+        3192
+
+S: 
+     3
+
+V: 
+   163
+
+F: 
+     1
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   220
+
+Average HB
+  314.3133
+
+Count of annotations
+        2064
+
+N: 
+        1951
+
+S: 
+    94
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   223
+
+Average HB
+  245.9327
+
+Count of annotations
+        2639
+
+N: 
+        2044
+
+S: 
+    73
+
+V: 
+   472
+
+F: 
+    14
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   230
+
+Average HB
+  263.5848
+
+Count of annotations
+        2459
+
+N: 
+        2252
+
+S: 
+     0
+
+V: 
+     1
+
+F: 
+     0
+
+Q: 
+     0
+
+
+F_class =
+
+   414
+
+
+N_class =
+
+       45798
+
+
+Q_class =
+
+     7
+
+
+S_class =
+
+   941
+
+
+V_class =
+
+        3782
+
+
+ans =
+
+       50942
+
+DS2 is processed now ...
+ ----------------- Patient -----------------
+   100
+
+Average HB
+  285.8399
+
+Count of annotations
+        2271
+
+N: 
+        2237
+
+S: 
+    33
+
+V: 
+     1
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   103
+
+Average HB
+  310.8560
+
+Count of annotations
+        2089
+
+N: 
+        2081
+
+S: 
+     2
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   105
+
+Average HB
+  241.5459
+
+Count of annotations
+        2669
+
+N: 
+        2515
+
+S: 
+     0
+
+V: 
+    41
+
+F: 
+     0
+
+Q: 
+     5
+
+ ----------------- Patient -----------------
+   111
+
+Average HB
+  304.7351
+
+Count of annotations
+        2131
+
+N: 
+        2122
+
+S: 
+     0
+
+V: 
+     1
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   113
+
+Average HB
+  361.9154
+
+Count of annotations
+        1794
+
+N: 
+        1788
+
+S: 
+     6
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   117
+
+Average HB
+  422.3522
+
+Count of annotations
+        1537
+
+N: 
+        1533
+
+S: 
+     1
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   121
+
+Average HB
+  346.4819
+
+Count of annotations
+        1870
+
+N: 
+        1858
+
+S: 
+     1
+
+V: 
+     1
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   123
+
+Average HB
+  427.9131
+
+Count of annotations
+        1516
+
+N: 
+        1513
+
+S: 
+     0
+
+V: 
+     3
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   200
+
+Average HB
+  232.8080
+
+Count of annotations
+        2784
+
+N: 
+        1740
+
+S: 
+    30
+
+V: 
+   826
+
+F: 
+     2
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   202
+
+Average HB
+  302.8891
+
+Count of annotations
+        2144
+
+N: 
+        2060
+
+S: 
+    55
+
+V: 
+    19
+
+F: 
+     1
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   210
+
+Average HB
+  242.0857
+
+Count of annotations
+        2676
+
+N: 
+        2419
+
+S: 
+    22
+
+V: 
+   194
+
+F: 
+    10
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   212
+
+Average HB
+  235.2515
+
+Count of annotations
+        2761
+
+N: 
+        2747
+
+S: 
+     0
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   213
+
+Average HB
+  197.3285
+
+Count of annotations
+        3290
+
+N: 
+        2640
+
+S: 
+    28
+
+V: 
+   219
+
+F: 
+   362
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   214
+
+Average HB
+  282.9778
+
+Count of annotations
+        2294
+
+N: 
+        2001
+
+S: 
+     0
+
+V: 
+   256
+
+F: 
+     1
+
+Q: 
+     2
+
+ ----------------- Patient -----------------
+   219
+
+Average HB
+  281.1419
+
+Count of annotations
+        2290
+
+N: 
+        2073
+
+S: 
+     7
+
+V: 
+    64
+
+F: 
+     1
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   221
+
+Average HB
+  264.0130
+
+Count of annotations
+        2458
+
+N: 
+        2029
+
+S: 
+     0
+
+V: 
+   396
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   222
+
+Average HB
+  246.7730
+
+Count of annotations
+        2623
+
+N: 
+        2268
+
+S: 
+   209
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   228
+
+Average HB
+  303.5965
+
+Count of annotations
+        2127
+
+N: 
+        1682
+
+S: 
+     3
+
+V: 
+   362
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   231
+
+Average HB
+  323.2223
+
+Count of annotations
+        2007
+
+N: 
+        1567
+
+S: 
+     1
+
+V: 
+     1
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   232
+
+Average HB
+  357.9295
+
+Count of annotations
+        1814
+
+N: 
+   398
+
+S: 
+        1381
+
+V: 
+     0
+
+F: 
+     0
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   233
+
+Average HB
+  206.2183
+
+Count of annotations
+        3149
+
+N: 
+        2229
+
+S: 
+     7
+
+V: 
+   830
+
+F: 
+    11
+
+Q: 
+     0
+
+ ----------------- Patient -----------------
+   234
+
+Average HB
+  235.1664
+
+Count of annotations
+        2760
+
+N: 
+        2698
+
+S: 
+    50
+
+V: 
+     3
+
+F: 
+     0
+
+Q: 
+     0
+
+
+F_class =
+
+   388
+
+
+N_class =
+
+       44198
+
+
+Q_class =
+
+     7
+
+
+S_class =
+
+        1836
+
+
+V_class =
+
+        3217
+
+
+ans =
+
+       49646
+
+Elapsed time is 23.977499 seconds.
+Successfully generated :)

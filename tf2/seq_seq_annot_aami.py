@@ -1,3 +1,10 @@
+"""
+    conda activate tensorflow_addons
+
+    python tf2/seq_seq_annot_aami.py --data_dir data/s2s_mitbih_aami --epochs 500
+    python tf2/seq_seq_annot_aami.py --data_dir data/s2s_mitbih_aami_original --epochs 100
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.io as spio
@@ -13,6 +20,8 @@ from imblearn.over_sampling import SMOTE
 from sklearn.model_selection import train_test_split
 import argparse
 random.seed(654)
+
+# 1 load data and normalize
 def read_mitbih(filename, max_time=100, classes= ['F', 'N', 'S', 'V', 'Q'], max_nlabel=100):
     def normalize(data):
         data = np.nan_to_num(data)  # removing NaNs and Infs
@@ -57,8 +66,10 @@ def read_mitbih(filename, max_time=100, classes= ['F', 'N', 'S', 'V', 'Q'], max_
     shape_v = data.shape
     data = np.reshape(data, [shape_v[0], -1])
     t_lables = np.array(t_lables)
+
     _data  = np.asarray([],dtype=np.float64).reshape(0,shape_v[1])
     _labels = np.asarray([],dtype=np.dtype('|S1')).reshape(0,)
+
     for cl in classes:
         _label = np.where(t_lables == cl)
         permute = np.random.permutation(len(_label[0]))
@@ -87,6 +98,8 @@ def read_mitbih(filename, max_time=100, classes= ['F', 'N', 'S', 'V', 'Q'], max_
     print('Records processed!')
 
     return data, labels
+
+# 2 calculate performance
 def evaluate_metrics(confusion_matrix):
     # https://stackoverflow.com/questions/31324218/scikit-learn-how-to-obtain-true-positive-true-negative-false-positive-and-fal
     FP = confusion_matrix.sum(axis=0) - np.diag(confusion_matrix)
@@ -114,6 +127,8 @@ def evaluate_metrics(confusion_matrix):
     ACC_macro = np.mean(ACC) # to get a sense of effectiveness of our method on the small classes we computed this average (macro-average)
 
     return ACC_macro, ACC, TPR, TNR, PPV
+
+# 3 
 def batch_data(x, y, batch_size):
     shuffle = np.random.permutation(len(x))
     start = 0
@@ -123,6 +138,8 @@ def batch_data(x, y, batch_size):
     while start + batch_size <= len(x):
         yield x[start:start + batch_size], y[start:start + batch_size]
         start += batch_size
+
+# 4 configure biRNN
 def build_network(inputs, dec_inputs,char2numY,n_channels=10,input_depth=280,num_units=128,max_time=10,bidirectional=False):
     _inputs = tf.reshape(inputs, [-1, n_channels, int(input_depth / n_channels)])
     # _inputs = tf.reshape(inputs, [-1,input_depth,n_channels])
@@ -193,6 +210,8 @@ def build_network(inputs, dec_inputs,char2numY,n_channels=10,input_depth=280,num
     logits = tf.compat.v1.layers.dense(dec_outputs, units=len(char2numY), use_bias=True)
 
     return logits
+
+# 5 bool value check
 def str2bool(v):
     if v.lower() in ('yes', 'true', 't', 'y', '1'):
         return True
@@ -200,6 +219,8 @@ def str2bool(v):
         return False
     else:
         raise argparse.ArgumentTypeError('Boolean value expected.')
+        
+# 6 configure arguments
 def main():
     parser = argparse.ArgumentParser()
 
@@ -218,6 +239,8 @@ def main():
                         default=['F','N', 'S','V'])
     args = parser.parse_args()
     run_program(args)
+
+# 7 main code: read data, train, 
 def run_program(args):
     print(args)
     max_time = args.max_time # 5 3 second best 10# 40 # 100
@@ -237,6 +260,7 @@ def run_program(args):
     print(("# of sequences: ", len(X)))
     input_depth = X.shape[2]
     n_channels = 10
+
     classes = np.unique(Y)
     char2numY = dict(list(zip(classes, list(range(len(classes))))))
     n_classes = len(classes)
@@ -299,8 +323,12 @@ def run_program(args):
         nums.append(len(np.where(y_train.flatten()==ind)[0]))
     # ratio={0:nums[3],1:nums[1],2:nums[3],3:nums[3]} # the best with 11000 for N
     ratio={0:n_oversampling,1:nums[1],2:n_oversampling,3:n_oversampling}
-    sm = SMOTE(random_state=12,ratio=ratio)
-    X_train, y_train = sm.fit_sample(X_train, y_train)
+    # Fixed : https://stackoverflow.com/questions/62225793/typeerror-init-got-an-unexpected-keyword-argument-ratio-when-using-smot
+    # version with error: sm = SMOTE(random_state=12,ratio=ratio)
+    sm = SMOTE(random_state=12,sampling_strategy=ratio)
+    # Fixed by me: https://stackoverflow.com/questions/66364406/attributeerror-smote-object-has-no-attribute-fit-sample
+    # version with error: X_train, y_train = sm.fit_sample(X_train, y_train)
+    X_train, y_train = sm.fit_resample(X_train, y_train)
 
     X_train = X_train[:int(X_train.shape[0]/max_time)*max_time,:]
     y_train = y_train[:int(X_train.shape[0]/max_time)*max_time]
@@ -317,16 +345,25 @@ def run_program(args):
     print ("------------------y_train samples--------------------")
     for ii in range(2):
       print((''.join([num2charY[y_] for y_ in list(y_train[ii+5])])))
+    
+    print ('Classes in the test set: ', classes)
+    for cl in classes:
+        ind = np.where(classes == cl)[0][0]
+        print (cl, len(np.where(y_test.flatten()==ind)[0]))
     print ("------------------y_test samples--------------------")
     for ii in range(2):
       print((''.join([num2charY[y_] for y_ in list(y_test[ii+5])])))
 
+# 8
     def test_model():
         # source_batch, target_batch = next(batch_data(X_test, y_test, batch_size))
         acc_track = []
         sum_test_conf = []
+        count = 0
         for batch_i, (source_batch, target_batch) in enumerate(batch_data(X_test, y_test, batch_size)):
 
+            print('Running batch: ', count)
+            count = count + 1
             dec_input = np.zeros((len(source_batch), 1)) + char2numY['<GO>']
             for i in range(y_seq_length):
                 batch_logits = sess.run(logits,
@@ -405,7 +442,7 @@ def run_program(args):
                 # accuracy = np.mean(batch_logits.argmax(axis=-1) == target_batch[:,1:])
                 accuracy = np.mean(train_acc)
                 print(('Epoch {:3} Loss: {:>6.3f} Accuracy: {:>6.4f} Epoch duration: {:>6.3f}s'.format(epoch_i, batch_loss,
-                                                                                  accuracy, time.time() - start_time)))
+                                                                                  accuracy, time.time() - start_time)), 'started at ', time.time())
 
                 if epoch_i%test_steps==0:
                     acc_avg, acc, sensitivity, specificity, PPV= test_model()
